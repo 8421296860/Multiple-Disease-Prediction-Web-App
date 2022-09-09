@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+"""
+created by - Bhushan Deshmukh
+"""
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
@@ -337,10 +341,10 @@ def breast_cancer_prediction(breast_cancer_model):
 
 def main():
     #Loading the saved model
-    diabetes_model = pickle.load(open('train_modules/diabetes_model.sav', 'rb'))
-    heart_disease_model = pickle.load(open('train_modules/heart_disease_model.sav', 'rb'))
-    parkinsons_disease_model = pickle.load(open('train_modules/parkinsons_model.sav', 'rb'))
-    breast_cancer_model = pickle.load(open('train_modules/breast_cancer_trained_model.sav', 'rb'))
+    diabetes_model = pickle.load(open('diabetes_trained_model.sav', 'rb'))
+    heart_disease_model = pickle.load(open('heart_disease_trained_model.sav', 'rb'))
+    parkinsons_disease_model = pickle.load(open('parkinsons_disease_trained_model.sav', 'rb'))
+    breast_cancer_model = pickle.load(open('breast_cancer_trained_model.sav', 'rb'))
     
     #Sidebar for navigation
     with st.sidebar:
