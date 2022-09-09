@@ -337,10 +337,10 @@ def breast_cancer_prediction(breast_cancer_model):
 
 def main():
     #Loading the saved model
-    diabetes_model = pickle.load(open('saved_models/diabetes_model.sav', 'rb'))
-    heart_disease_model = pickle.load(open('saved_models/heart_disease_model.sav', 'rb'))
-    parkinsons_disease_model = pickle.load(open('saved_models/parkinsons_model.sav', 'rb'))
-    breast_cancer_model = pickle.load(open('saved_models/breast_cancer_model.sav', 'rb'))
+    diabetes_model = pickle.load(open('train_modules/diabetes_model.sav', 'rb'))
+    heart_disease_model = pickle.load(open('train_modules/heart_disease_model.sav', 'rb'))
+    parkinsons_disease_model = pickle.load(open('train_modules/parkinsons_model.sav', 'rb'))
+    breast_cancer_model = pickle.load(open('train_modules/breast_cancer_trained_model.sav', 'rb'))
     
     #Sidebar for navigation
     with st.sidebar:
