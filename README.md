@@ -12,5 +12,5 @@ Inconvenient scheduling.
 Accurate and on-time analysis of any health-related problem is important for the prevention and treatment of the illness.
 
 
-![image](https://user-images.githubusercontent.com/78414877/192719253-759eea49-8c80-47dc-9e14-d31c7c02c73d.png)
+
 
