@@ -1,7 +1,7 @@
 # Multiple-Disease-Prediction-Web-App
 We built a multiple disease prediction system using machine learning in python. We also deployed this web app using Stramlit.
 
-***Problem statement where we worked - 
+Problem statement where we worked - 
 The International Diabetes Federation projects that the number of Indians with diabetes will soar to 123 million by 2040.  Currently, 5% of the Indian population suffers from diabetes.
 According to the World Heath Organization, 28% of all deaths in India was related to heart disease.
 Parkinson’s disease is a progressive disorder of the nervous system that affects movement. It is estimated that 10 million people have Parkinson’s disease worldwide, affecting all races and cultures. In India there are an estimated 1 Million people who suffer from Parkinson’s.
